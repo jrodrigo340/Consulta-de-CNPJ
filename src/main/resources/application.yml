@@ -1,0 +1,11 @@
+consulta-cnpj:
+  brasilapi:
+    base-url: https://brasilapi.com.br
+    connect-timeout: 3s
+    request-timeout: 5s
+
+server:
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
